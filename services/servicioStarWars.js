@@ -7,7 +7,6 @@ export const getPlanetas =async  () => {
 
 }
 
-
 export const getNaves = async  () => {
     const url  = "https://swapi.dev/api/vehicles/"
     const req = await fetch(url)
@@ -16,3 +15,4 @@ export const getNaves = async  () => {
     return data
 
 }
+

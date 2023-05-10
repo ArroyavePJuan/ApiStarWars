@@ -1,3 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
 .banner{
     background-image: url("../img/foto1.jpg");
     background-position: top center;
@@ -8,4 +15,12 @@
 
 .menu{
     background-color: rgb(0, 0, 0);
+}
+
+.planeta{
+    margin: 2%;
+}
+
+.nave{
+    margin: 2%;
 }
